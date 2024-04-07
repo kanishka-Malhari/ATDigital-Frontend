@@ -3,6 +3,7 @@ import '../styles/Home.css'
 import banner from '../assets/banner.jpg';
 import desktop from '../assets/desktop.png'
 import searchIcon from '../assets/searchIcon.png'
+import FAQ from '../components/FAQ'
 
 function Home() {
   return (
@@ -50,8 +51,11 @@ function Home() {
 
       </div>
 
-      <div className='FAQ'></div>
-
+      <div className='FAQ'>
+      <FAQ/>
+      </div>
+      
+      
      
     </div>
   )

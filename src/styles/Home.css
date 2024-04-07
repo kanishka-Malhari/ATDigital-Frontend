@@ -39,11 +39,12 @@
 .home .part1 {
     flex-direction: row;
     display: flex;
-    height: 25%;
+    height: 50vh;
     width: 75%;
     align-items: center;
     align-content: center;
     margin-left: 250px;
+    margin-bottom: 20px;
 }
 
 .home .part1 h1{
@@ -68,7 +69,7 @@
 .home .part2 {
     flex-direction: row;
     display: flex;
-    height: 25%;
+    height: 50vh;
     width: 75%;
     align-items: center;
     align-content: center;
@@ -94,4 +95,9 @@
     height: 38px;
     width: 129px;
     color: white;
+}
+.home .FAQ {
+    width: 75%;
+    height: 25%;
+    display: flex;
 }
